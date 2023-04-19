@@ -1,0 +1,1 @@
+document.getElementById("header").style.cssText="position: fixed;width: 100%;z-index: 1;background-color: #f50018";
