@@ -11,36 +11,46 @@
    
 
     <header class="bg-black " style="height: 4rem;color: white;">
-        <div class="flex justify-start">
+        <div class="flex justify-start"style="padding-left: 3rem;">
             <img id="log_icon" src="" alt="">
             
             
         </div>
       </header>
-<section class="flex justify-center">
+
+
+<section class="grid grid-cols-2 gap-4 place-content-center text-center" style="height: 39.5rem;">
     
-        <div class="right w-1/4 bg-white relative rounded-md flex flex-col p-5 shadow-2xl">
-            <img id="log_img" src="" alt="logo">
-            <p class="text-center">Sign up for Flickr</p>
-            <input class="outline-blue-500 h-12 border-2 rounded-md px-3 my-2" type="text" placeholder="First Name">
-            <input class="outline-blue-500 h-12 border-2 rounded-md px-3 my-2" type="text" placeholder="Last Name">
-            <input class="outline-blue-500 h-12 border-2 rounded-md px-3 my-2" type="number" placeholder="Age">
-            <input class="outline-blue-500 h-12 border-2 rounded-md px-3 my-2" type="text" placeholder="Your Email address">
-            <input class="outline-blue-500 h-12 border-2 rounded-md px-3 my-2" type="text" placeholder="Password">
-            <button class="bg-blue-500 my-2 text-white rounded-md px-3 py-1 hover:bg-blue-500"
-                style="height: 2.5rem;">Sign up</button>
-            <p class="text-center text-sm">By signing up, you agree with Flickr's Terms of Services and Privacy Policy.</p><br>
-            <hr class="my-2"><br>
-            <span class="bottom-10 text-sm text-center">Already a Flickr member? <button  onclick="location.href = 'login.html';" class="cursor-pointer hover:underline">
-                Log in here.</button></span>
+    <div id="log_box">
+        <img id="log_img" src="" alt="logo">
+        <p class="text-center" style="font-size: 20px;">Sign up for Flickr</p>
+        <input class="outline-blue-500 h-12 rounded-sm px-3 my-2" type="text" placeholder="First Name"style="border-width: 1px; border-color:black; padding-right: 6rem;">
+        <input class="outline-blue-500 h-12 rounded-sm px-3 my-2" type="text" placeholder="Last Name"style="border-width: 1px; border-color:black; padding-right: 6rem;">
+        <input class="outline-blue-500 h-12 rounded-sm px-3 my-2" type="text" placeholder="Age"style="border-width: 1px; border-color:black; padding-right: 6rem;">
+        <input class="outline-blue-500 h-12 rounded-sm px-3 my-2" type="text" placeholder="Email address"style="border-width: 1px; border-color:black; padding-right: 6rem;">
+        <input class="outline-blue-500 h-12 rounded-sm px-3 my-2" type="text" placeholder="Password"style="border-width: 1px; border-color:black; padding-right: 6rem;">
+        <button class="bg-blue-500 my-2 text-white rounded-sm px-3 py-1 hover:bg-blue-500"
+            style="height: 2.5rem;font-weight: bold;">Sign up</button>
+        <p class="text-center text-sm" style="color: grey;">By signing up, you agree with Flickr's Terms of<br>Services and Privacy Policy.</p><br>
+        <hr class="my-1"><br>
+        <span class="bottom-10 text-sm text-center">Already a Flickr member? <button  onclick="location.href = 'login.html';" class="cursor-pointer hover:underline">
+            Log in here.</button></span>
+    </div>
+    <div class="text-white flex justify-between" style="margin-top: 4px;">
+        <div>
+            <a href="#">English</a>
         </div>
-        <!--<div class="flex">
-            <a href="#">Help</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms</a>
-        </div>-->
-    
-</section>
+       
+        <div>
+            <a style="padding-left: 10px;" href="#">Help</a>
+             <a style="padding-left: 10px;" href="#">Privacy</a>
+            <a style="padding-left: 10px;" href="#">Terms</a>
+        </div>
+       
+        
+    </div>
+      
+  </section>
     <script src="script.js"></script>
 </body>
 </html>
