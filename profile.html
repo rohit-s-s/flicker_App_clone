@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flicker | Profile</title>
     <link rel="stylesheet" href="output.css">
+    <script src="https://kit.fontawesome.com/57efc2f9b4.js" crossorigin="anonymous"></script>
 </head>
 <body style="background-color: aliceblue;height: 100%;">
    <!--
@@ -39,53 +40,66 @@
     </header>
    --> 
 
-  <header class="bg-black " style="height: 4rem;color: white;">
-    <div class="flex justify-evenly">
-        <p>Icon</p>
-        <p>search</p>
-        <div class="flex justify-evenly">
-            <p>login</p>
-            <p>Signup</p>
-        </div>
-        
+<header class="flex justify-around" style="background-color: black; height: 4rem;color: white;">
+   
+    <div class="flex">
+        <img id="log_icon" src="" alt="">
+        <a style="margin-top: 18px;padding-right: 2rem;padding-left: 2rem;" href="#">View</a>
+        <a style="margin-top: 18px;padding-right: 2rem;"href="#">Explore</a>
+        <a style="margin-top: 18px;padding-right: 2rem;"href="#">Prints</a>
+        <a style="margin-top: 18px;padding-right: 2rem;"href="#">Get Pro</a>
     </div>
+   
+        <div class="flex">
+            <input style="padding-right:15rem;height: 2rem; margin-top: 15px;color: black;"
+                    class="border-none rounded-sm outline-none border-2 px-3 my-2" type="text"
+                    placeholder="https://wploadww.flickr.com/u">
+          <i class="fa-regular fa-cloud-arrow-up" style="margin-top: 24px;padding-left: 2rem;"></i>
+           <i class="fa-solid fa-bell" style="color: #ffffff;margin-left: 15px;margin-top: 24px;padding-right: 2rem;padding-left: 2rem;"></i>
+           <img src="assests/profile.jpg" alt="" style="border-radius: 50%; height: 2rem;margin-top: 15px;">
+     </div>
+   
+   
   </header>
   <section class="text-center place-items-center" style="height: 39rem;">
     <img style="width: 100%; height: 230px;" src="assests/bg-1.jpg" alt="">
-    <section class="bg-white flex" style="height: 3rem;">
-        <div class="flex justify-between" style="width: 80%;">
-            <a href="#">About</a>
-            <a href="#">Photostream</a>
-            <a href="#">Faves</a>
-            <a href="#">Gallaries</a>
-            <a href="#">Groups</a>
-            <a href="#">Stats</a>
-            <a href="#">Camera Roll</a>
-            
-        </div>
+    <section>
+       <div class="bg-white flex" style="height: 3rem;padding-left: 8rem;padding-top: 0.75rem;color: grey;border-bottom: 1px solid;border-color: rgba(91, 88, 88, 0.384);">
+        <div class="flex justify-start" style="width: 80%;">
+            <a style="padding-right: 2rem;" href="#">About</a>
+            <a style="padding-right: 2rem;" href="#">Photostream</a>
+            <a style="padding-right: 2rem;" href="#">Albums</a>
+            <a style="padding-right: 2rem;" href="#">Faves</a>
+            <a style="padding-right: 2rem;" href="#">Galleries</a>
+            <a style="padding-right: 2rem;" href="#">Groups</a>
+            <a style="padding-right: 2rem;" href="#">Stats</a>
+            <a style="padding-right: 2rem;" href="#">Camera Roll</a>
+       </div>
+       </div>
+       <div class="flex" style="padding-left:6rem;margin-top: 8px;color: grey;">
+        <p>Date Uploaded</p>
+        <p style="padding-left: 2rem;">Date preview</p>
+       </div>
+       
        
     </section>
-    <h1>You have no public photos.<br>Your photostream is your public-facing portfolio. Set your photos to public using the Camera Roll to populate your photostream.
-        
-        Go to Camera Roll</h1><br>
+    <br>
+    <h1 style="font-size: 25px;">You have no public photos.</h1><br>
+        <h3>Your photostream is your public-facing portfolio. Set your photos to public using the Camera Roll to<br>populate your photostream.</h3><br>
    
     <button class="bg-blue-500 my-2 text-white rounded-md px-3 py-1 hover:bg-blue-500"
                     style="height: 2.5rem;">Go to Camera Roll</button>
   </section>
-  <footer style="height: 4rem; background-color: black; color: white;">
-    <div class="flex justify-evenly">
-        <a href="Home.html" >About</a>
-        <a href="">Blob</a>
-        <a href="">Developers</a>
-        <a href="">Guidlines</a>
-        <a href="">Help</a>
-        <a href="">Help Forum</a>
-        <a href="">Privacy</a>
-        <a href="">Terms</a>
-        <a href="">Cookies</a>
-        <a href="">English</a>
-        <a href="">SmugMug+Flickr</a>
-        
+  <footer style="height: 3.5rem; background-color: black; color:grey">
+    <div class="flex justify-evenly" style="margin-top: 1rem;">
+        <a style="margin-top: 1rem;" href="#" >About</a>
+        <a style="margin-top: 1rem;" href="#">Jobs</a>
+        <a style="margin-top: 1rem;"href="">Blog</a>
+        <a style="margin-top: 1rem;"href="">Developers</a>
+        <a style="margin-top: 1rem;"href="">Report abuse</a>
+        <a style="margin-top: 1rem;"style="margin-top: 1rem;"href="">Help</a>
+        <a style="margin-top: 1rem;"href="">Help Forum</a>
+        <a style="margin-top: 1rem;"href="">English</a>
     </div>
   </footer>
     <script src="script.js"></script>
