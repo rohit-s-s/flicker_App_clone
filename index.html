@@ -7,7 +7,7 @@
     <title>Flicker</title>
     <link rel="stylesheet" href="output.css">
 </head>
-<body style="background-color: aliceblue;height: 100%;">
+<body class="grid items-stretch" style="background-color: rgb(209, 209, 209);height: 100%;">
    <!--
 <header class="text-center " style="position: fixed;width: 100%;z-index: 1;background-color: #0000006f;">
         <div class="margin-top: 1rem; flex justify-stretch">
@@ -40,25 +40,33 @@
    --> 
 
   
-   <header class="bg-black " style="height: 4rem;color: white;">
+   <header style="background-color: rgba(0, 0, 0, 0.299); height: 4rem;color: white;">
     <div class="flex justify-around">
         <img id="log_icon" src="" alt="">
-        <input class="outline-none h-12 border-2 px-3 my-2" type="text" placeholder="Search">
-            <button  onclick="location.href = 'login.html';" >Login</button>
-            <button  onclick="location.href = 'sign.html';" >Signup</button>
-        </div>
         
+        <input style="padding-right:50rem;height: 2rem; margin-top: 15px;color: black;" class="border-none rounded-sm outline-none border-2 px-3 my-2" type="text" placeholder="Photos,peoples,or groups">
+        <div class="flex space-x-4" >
+            <button  onclick="location.href = 'login.html';" >Log In</button>
+            <button class="bg-white my-4 text-black rounded-sm px-3 py-1 hover:text-gray-400" style="margin-left: 15px;color: black;" onclick="location.href = 'sign.html';" >Sign Up</button>
+        </div>
+            
+    </div>
     </div>
   </header>
-  <section class="text-center place-items-center" style="height: 38.8rem;">
-    <h1 style="font-weight: bold;font-size: 50px;" >Find your inspiration</h1><br>
-    <h2 style="font-size: 25px;">Join the Flickr community, home to tens of billions of photos and 2 million groups.</h2><br>
-    <button id="log_button" class="bg-blue-500 my-2 text-white rounded-md px-3 py-1 hover:bg-blue-500"
-                    style="height: 2.5rem;">Start for Free</button><br>
-    
+  <section class="grid grid-cols-2 gap-4 place-content-center text-center" style="height: 39.5rem;">
+    <div>
+        <h1 style="font-weight: bold;font-size: 50px;color: white;" >Find your inspiration</h1><br>
+    </div>
+    <div>
+        <h2 style="font-weight:bold;font-size:25px;color: white;">Join the Flickr community, home to tens of billions of<br>photos and 2 million groups.</h2><br>
+    </div>
+    <div>
+        <button id="log_button" class="bg-white my-4 text-black rounded-sm px-3 py-1 hover:text-gray-400";
+        style="height: 3.2rem;font-size:20px;font-weight:bold;color: black">Start for Free</button><br>
+    </div>   
   </section>
-  <footer style="height: 4rem; background-color: black; color: white;">
-    <div class="flex justify-evenly">
+  <footer style="height: 3.5rem; background-color: black; color:grey">
+    <div class="flex justify-evenly" style="margin-top: 1rem;">
         <a href="" >About</a>
         <a href="">Jobs</a>
         <a href="">Blob</a>
