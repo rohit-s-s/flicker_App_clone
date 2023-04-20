@@ -46,33 +46,41 @@
    --> 
 
   <header class="bg-black " style="height: 4rem;color: white;">
-    <div class="flex justify-start">
+    <div class="flex" style="padding-left: 3rem;">
         <img id="log_icon" src="" alt="">
         
         
     </div>
   </header>
-<section id="section1" class="flex justify-center">
+  <section class="grid grid-cols-2 gap-4 place-content-center text-center" style="height: 39.5rem;">
+    <div id="log_box">
+        <img id="log_img" src="" alt="logo">
+
+        <p class="text-center" style="font-size: 20px;">Log in to Flickr</p><br>
+      
+        <input id="log_input" class="outline-blue-500 h-12 rounded-sm px-3 my-2" type="text" placeholder="Email address" style="border-width: 1px; border-color:black; padding-right: 8rem;"><br>
+   
+         <button id="log_button" class="bg-blue-500 my-2 text-white rounded-sm px-3 py-1 hover:bg-blue-500"
+        style="height: 2.5rem;">Next</button><br>
        
-            <div id="log_box" >
-                <!--class="right w-1/4 bg-white relative rounded-md flex flex-col p-5 shadow-2xl"-->
-                <img id="log_img" src="" alt="logo">
-                <p class="text-center">Log in to Flickr</p>
-                <input id="log_input" class="outline-blue-500 h-12 border-2 rounded-md px-3 my-2" type="text" placeholder="Email address"><br>
-                <button id="log_button" class="bg-blue-500 my-2 text-white rounded-md px-3 py-1 hover:bg-blue-500"
-                    style="height: 2.5rem;">Next</button><br>
-                <span class="bottom-10 text-sm text-center">Not a Flickr member? <button  onclick="location.href = 'sign.html';" class="cursor-pointer hover:underline">
-                        Sign up here.</button></span>
-            </div>
-            <!--<div class="flex">
-                <a href="#">Help</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms</a>
-            </div>-->
+        <span class="bottom-10 text-sm text-center">Not a Flickr member? <button  onclick="location.href = 'sign.html';" class="cursor-pointer hover:underline">
+            Sign up here.</button></span>
+    </div>
+    <div class="text-white flex justify-between" style="margin-top: 4px;">
+        <div>
+            <a href="#">English</a>
+        </div>
+       
+        <div>
+            <a style="padding-left: 10px;" href="#">Help</a>
+             <a style="padding-left: 10px;" href="#">Privacy</a>
+            <a style="padding-left: 10px;" href="#">Terms</a>
+        </div>
        
         
-    
-</section>
+    </div>
+      
+  </section>
     <script src="script.js"></script>
 </body>
 </html>
