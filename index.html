@@ -39,21 +39,23 @@
     </header>
    --> 
 
-  <header class="bg-black " style="height: 4rem;color: white;">
-    <div class="flex justify-evenly">
-        <p>Icon</p>
-        <p>search</p>
-        <div class="flex justify-evenly">
-            <p>login</p>
-            <p>Signup</p>
+  
+   <header class="bg-black " style="height: 4rem;color: white;">
+    <div class="flex justify-around">
+        <img id="log_icon" src="" alt="">
+        <input class="outline-none h-12 border-2 px-3 my-2" type="text" placeholder="Search">
+            <button  onclick="location.href = 'login.html';" >Login</button>
+            <button  onclick="location.href = 'sign.html';" >Signup</button>
         </div>
         
     </div>
   </header>
-  <section class="text-center place-items-center" style="height: 39rem;">
-    <h1>Find your inspiration</h1><br>
-    <h2>Join the Flickr community, home to tens of billions of photos and 2 million groups.</h2><br>
-    <button>Start for free</button>
+  <section class="text-center place-items-center" style="height: 38.8rem;">
+    <h1 style="font-weight: bold;font-size: 50px;" >Find your inspiration</h1><br>
+    <h2 style="font-size: 25px;">Join the Flickr community, home to tens of billions of photos and 2 million groups.</h2><br>
+    <button id="log_button" class="bg-blue-500 my-2 text-white rounded-md px-3 py-1 hover:bg-blue-500"
+                    style="height: 2.5rem;">Start for Free</button><br>
+    
   </section>
   <footer style="height: 4rem; background-color: black; color: white;">
     <div class="flex justify-evenly">
