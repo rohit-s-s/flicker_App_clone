@@ -12,3 +12,5 @@ document.getElementById("h2").innerHTML="Join the Flickr community, home to tens
 document.getElementById("log_button").style.cssText="height: 3.2rem;font-size:20px;font-weight:bold;color: black;"
 document.getElementById("log_button").innerHTML="Start for free"
 document.getElementById("footer").style.cssText=style="height: 3.5rem; background-color: black; color:grey"
+//login page
+//document.getElementById("login_body").style="background-image: url(https://identity.flickr.com/img/033120190455-by-Henry.2edde7a9.jpg);"
