@@ -1,6 +1,5 @@
 document.getElementById("body").style.cssText="height: 100%; background-image: url(https://bit.ly/3H0hzvf);"
 document.getElementById("header").style.cssText="background-color: rgba(0, 0, 0, 0.299); height: 4rem;color: white;"
-//document.getElementById("logo").src="assests\flicker.jpg";
 document.getElementById("logo").style.cssText="height: 4rem;"
 document.getElementById("input").style.cssText="background-color: rgba(255, 255, 255, 0.725); padding-right:50rem;height: 2rem; margin-top: 15px;color: black;"
 document.getElementById("input_buttn").style.cssText="margin-left: 15px;color: black;"
@@ -12,5 +11,4 @@ document.getElementById("h2").innerHTML="Join the Flickr community, home to tens
 document.getElementById("log_button").style.cssText="height: 3.2rem;font-size:20px;font-weight:bold;color: black;"
 document.getElementById("log_button").innerHTML="Start for free"
 document.getElementById("footer").style.cssText=style="height: 3.5rem; background-color: black; color:grey"
-//login page
-//document.getElementById("login_body").style="background-image: url(https://identity.flickr.com/img/033120190455-by-Henry.2edde7a9.jpg);"
+
