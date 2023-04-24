@@ -11,29 +11,28 @@
     <script src="https://kit.fontawesome.com/57efc2f9b4.js" crossorigin="anonymous"></script>
 </head>
 
-<body style="background-color: aliceblue;height: 100%;">
+<body id="body">
 
 
-    <header class="flex justify-around" style="background-color: black; height: 4rem;color: white;">
+    <header id="header" class="flex justify-around bg-black text-white h-1">
 
         <div class="flex">
-            <img class="cursor-pointer" onclick="location.href = 'Home.html';" src="assests/flickr.png" alt=""
-                style="height: 4rem;">
-            <a style="margin-top: 24px;padding-right: 2rem;padding-left: 2rem;" href="#">View</a>
+            <img id="img" class="cursor-pointer" onclick="location.href = 'Home.html';" src="assests/flickr.png" alt="">
+            <a  style="margin-top: 24px;padding-right: 2rem;padding-left: 2rem;" href="#">View</a>
             <a style="margin-top: 24px;padding-right: 2rem;" href="#">Explore</a>
             <a style="margin-top: 24px;padding-right: 2rem;" href="#">Prints</a>
             <a style="margin-top: 24px;padding-right: 2rem;" href="#">Get Pro</a>
         </div>
 
         <div class="flex">
-            <input style="padding-right:15rem;height: 2rem; margin-top: 15px;color: black;"
+            <input id="input"
                 class="border-none rounded-sm outline-none border-2 px-3 my-2" type="text"
                 placeholder="https://wploadww.flickr.com/u">
-            <i class="fa-solid fa-cloud-arrow-up cursor-pointer" style="margin-top: 24px;padding-left: 1rem;"></i>
-            <i class="fa-solid fa-bell cursor-pointer"
-                style="color: #ffffff;margin-left: 15px;margin-top: 24px;padding-right: 1rem;"></i>
-            <button onclick="location.href = 'profile.html';"><img src="assests/profile.jpg" alt="profile"
-                    style="border-radius: 50%;height: 2rem;">
+            <i id="png" class="fa-solid fa-cloud-arrow-up cursor-pointer"></i>
+            <i  id="bell" class="fa-solid fa-bell cursor-pointer"
+                ></i>
+            <button  onclick="location.href = 'profile.html';"><img id="profile"  src="assests/profile.jpg" alt="profile"
+                    >
             </button>
         </div>
 
@@ -133,6 +132,7 @@
         </div>
     </footer>
     <script src="script.js"></script>
+    <script src="profile.js"></script>
 </body>
 
 </html>
