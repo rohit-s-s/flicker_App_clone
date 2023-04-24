@@ -8,43 +8,39 @@
     <title>Flickr</title>
     <link rel="stylesheet" href="output.css">
     <link rel="icon" type="img/png" href="assests/flickr (4).png">
+
 </head>
 
-<body class="grid items-stretch" style="height: 100%; background-image: url(https://bit.ly/3H0hzvf);">
-    <header style="background-color: rgba(0, 0, 0, 0.299); height: 4rem;color: white;">
+<body id="body" class="grid items-stretch">
+    <header id="header">
         <div class="flex justify-around">
-            <button onClick="window.location.reload();"><img src="assests/flickr.png" alt=""
-                    style="height: 4rem;"></button>
+            <button id="logo" onClick="window.location.reload();"><img src="" alt="logo"></button>
 
-            <input
-                style="background-color: rgba(255, 255, 255, 0.725); padding-right:50rem;height: 2rem; margin-top: 15px;color: black;"
-                class="border-none rounded-sm outline-none border-2 px-3 my-2" type="text"
+            <input id="input" class="border-none rounded-sm outline-none border-2 px-3 my-2" type="text"
                 placeholder="Photos,peoples,or groups">
             <div class="flex space-x-4">
                 <button onclick="location.href = 'login.html';">Log In</button>
-                <button class="bg-white my-4 text-black rounded-sm px-3 py-1 hover:text-gray-400"
-                    style="margin-left: 15px;color: black;" onclick="location.href = 'sign.html';">Sign Up</button>
+                <button id="input_buttn" class="bg-white my-4 text-black rounded-sm px-3 py-1 hover:text-gray-400"
+                    onclick="location.href = 'sign.html';">Sign Up</button>
             </div>
 
         </div>
         </div>
     </header>
-    <section class="grid grid-cols-2 gap-4 place-content-center text-center"
-        style="height: 39.5rem;font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;">
+    <section id="section" class="grid grid-cols-2 gap-4 place-content-center text-center">
+
         <div>
-            <h1 style="font-weight: 550;font-size: 50px;color: white;">Find your inspiration.</h1><br>
+            <h1 id="h1"></h1><br>
         </div>
         <div>
-            <h2 style="font-weight:550;font-size:25px;color: white;">Join the Flickr community, home to tens of billions
-                of<br>photos and 2 million groups.</h2><br>
+            <h2 id="h2"></h2><br>
         </div>
         <div>
-            <button id="log_button" class="bg-white my-4 text-black rounded-sm px-3 py-1 hover:text-gray-400" ;
-                style="height: 3.2rem;font-size:20px;font-weight:bold;color: black">Start for Free</button><br>
+            <button id="log_button" class="bg-white my-4 text-black rounded-sm px-3 py-1 hover:text-gray-400" ;></button><br>
         </div>
     </section>
-    <footer style="height: 3.5rem; background-color: black; color:grey">
-        <div id="footer" class="flex justify-evenly" style="margin-top: 1rem;">
+    <footer id="footer">
+        <div class="flex justify-evenly mt-4">
             <a class="hover:underline" href="">About</a>
             <a class="hover:underline" href="">Jobs</a>
             <a class="hover:underline" href="">Blob</a>
@@ -60,6 +56,7 @@
 
         </div>
     </footer>
+    <script src="index.js"></script>
     <script src="script.js"></script>
 </body>
 
